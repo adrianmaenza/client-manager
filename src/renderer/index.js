@@ -12,9 +12,11 @@ import Dashboard from './views/Dashboard.vue'
 import Customers from './views/Customers.vue'
 import Services from './views/Services.vue'
 import About from './views/About.vue'
+import Orders from './views/Orders.vue'
 
 const routes = [
     { path: '/', component: Dashboard },
+    { path: '/orders', component: Orders },
     { path: '/customers', component: Customers },
     { path: '/services', component: Services },
     { path: '/about', component: About },

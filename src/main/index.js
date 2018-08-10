@@ -1,6 +1,6 @@
-const electron = require("electron");
-
-const { app, BrowserWindow } = electron;
+const electron = require("electron")
+const { app, BrowserWindow } = electron
+const { clients } = require('./storage/index.js')
 
 let mainWindow;
 

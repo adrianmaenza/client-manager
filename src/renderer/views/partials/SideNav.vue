@@ -40,6 +40,7 @@ export default {
         return{
             menuItems: [
                 { label: 'Dashboard', path: '/' , icon: 'dashboard'},
+                { label: 'Orders', path: '/orders', icon: 'info' },
                 { label: 'Customers', path: '/customers', icon: 'people' },
                 { label: 'Services', path: '/services', icon: 'attach_money' },
                 { label: 'About', path: '/about', icon: 'info' },
