@@ -19,7 +19,7 @@
             </h6>
             <ul class="nav flex-column mb-2">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link add-customer" href="#">
                     <span data-feather="file-text"></span>
                         Add new customer
                     </a>
@@ -45,6 +45,11 @@ export default {
                 { label: 'Services', path: '/services', icon: 'attach_money' },
                 { label: 'About', path: '/about', icon: 'info' },
             ],
+        }
+    },
+    methods: {
+        addCustomerDialog(){
+
         }
     }
 }

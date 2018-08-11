@@ -1,9 +1,10 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import 'bootstrap'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import './sass/app.scss'
 import 'material-design-icons-iconfont/dist/material-design-icons.css' 
 import App from './App.vue'
+import $ from 'jquery'
 
 Vue.use(VueRouter)
 
@@ -34,3 +35,5 @@ new Vue({
         return h(App);
     },
 });
+
+$('.add-customer').on('click', () => $('#addCustomerDialog').modal())
